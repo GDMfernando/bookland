@@ -6,10 +6,10 @@ class Landingsection extends Component {
   render() {
     return (
       <div>
-        <Container style={{ padding: "0px", margin: "0px" }}>
+        <Container fluid style={{ padding: "0px", margin: "0px"}}>
           <Row>
             <Col sm>
-              <Carousel className="slider">
+              <Carousel>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
